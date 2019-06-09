@@ -62,15 +62,9 @@ public class SCON2019_C {
                     max = arrK.get(i).get(j);
             }
             ArrayList<Integer> tmp = new ArrayList<Integer>();
-            tmp.add(max + 1);
+            tmp.add(max);
             tmp.add(arrK.get(i).size());
             timeK.add(tmp);
-        }
-
-
-        for(int i = 0 ; i < timeK.size() ; i++) {
-            System.out.println(timeK.get(i).get(0));
-            System.out.println(timeK.get(i).get(1));
         }
 
         ArrayList<Integer> totalTime =  new ArrayList<Integer>();
